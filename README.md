@@ -9,4 +9,6 @@ O projeto consiste em criar um site portifólio com base nas aulas
 - [x] Adicionar conteúdo das tags index.html
 - [x] Criar pág contato.html
 - [x] Criar pasta e arq. CSS
-- [ ] Estilizar pág HTML
+- [x] Estilizar pág HTML
+- [x] Criar arqv JS
+- [x] Adicionar o DOM
