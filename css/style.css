@@ -1,0 +1,133 @@
+/* Reset básico de margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definições gerais de fontes */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6F24A9, #0B1D4F);
+  color: #CCCCCC;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(11, 29, 79, 0.9);
+  padding: 1rem 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #5AD1FF;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #B97BFF;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center; /* Alinha o conteúdo verticalmente no centro */
+  justify-content: space-between; /* Coloca o texto à esquerda e a imagem à direita */
+  height: 100vh;
+  text-align: left; /* Garante que o texto tenha alinhamento à esquerda */
+  color: #F0F0F5;
+  padding: 0 40px;
+}
+
+.hero-text {
+  max-width: 50%; /* Limita a largura do texto para que a imagem tenha espaço */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero span {
+  color: #B97BFF; /* Destaque para o nome */
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero a.button {
+  background-color: #1B1F54;
+  color: #F0F0F5;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.hero a.button:hover {
+  background-color: #9241F8;
+}
+
+.hero-image {
+  max-width: 40%; /* Define o tamanho máximo da imagem */
+  border-radius: 50%; /* Deixa a imagem circular */
+  object-fit: cover; /* Garante que a imagem se ajuste bem */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra à imagem */
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* Empilha os elementos na vertical em telas menores */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    max-width: 70%; /* Ajusta o tamanho da imagem em telas menores */
+    margin-top: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.75rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
