@@ -1,0 +1,13 @@
+[
+  {
+    "title": "CRUD Farmácia",
+    "description": "CRUD de uma farmácia, integrado ao backend feito com Java e frontend em React. Neste projeto os produtos e categorias são listados, é possível deletar e adcionar as categorias",
+    "images": [
+      "assets/images/farmacia/homeFarmacia.png",
+      "assets/images/farmacia/listaCategorias.png",
+      "assets/images/farmacia/cadatroCategoria.png"
+    ],
+    "technologies": ["Java", "Spring Boot", "React", "Tailwind Css", "Typescript"],
+    "link": "https://github.com/Isabela-prog/FarmaciaFront"
+  }
+]
