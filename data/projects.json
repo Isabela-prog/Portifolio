@@ -15,8 +15,11 @@
     "description": "Aplicação completa de um delivery de supermercado, integrado ao backend feito com Java/Spring Boot e frontend em React. Neste projeto os funcionários do supermercado são cadastrados, autenticados e logados. Também é possível fazer cadastro de alimentos e categorias, bem como editá-los e excluí-los. Cada funcionário, também possui sua própria página de perfil.",
     "images": [
       "assets/images/superja/login.png",
-      "assets/images/farmacia/listaCategorias.png",
-      "assets/images/farmacia/cadatroCategoria.png"
+      "assets/images/superja/home.png",
+      "assets/images/superja/categorias.png",
+      "assets/images/superja/produtos.png",
+      "assets/images/superja/nos.png",
+      "assets/images/superja/usuer.png"
     ],
     "technologies": ["Java", "Spring Boot", "React", "Tailwind Css", "Typescript"],
     "link": "https://github.com/Isabela-prog/superja_react"
@@ -36,7 +39,7 @@
     "title": "API Fullstack Caronas",
     "description": "Aplicação completa de um sistema de caronas para mulheres, integrado ao backend feito com Java/Spring Boot. Neste projeto é possível cadastrar um usuário (que será a motorista, portanto só é possível cadastro de pessoas do sexo feminino), um veículo que estará vinculado a uma viagem e a uma motorista e, por fim, o cadastro de viagens. Também é possível listar todas motoristas e viagens.",
     "images": [
-      "assets/images/ladydrive/home.png",
+      "assets/images/ladydrive/home",
       "assets/images/ladydrive/viagem.png",
       "assets/images/ladydrive/usuario.png",
       "assets/images/ladydrive/veiculo.png"
